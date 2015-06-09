@@ -1,0 +1,28 @@
+/**
+ * Import BASE styles:
+ * 1. Nomralize CSS
+ * 2. Typography (font-family, font-size, etc.)
+ * 3. Globals (background-color, body color, etc.)
+ */
+
+@import "base/_normalize.scss";
+@import "base/_typography.scss";
+@import "base/_globals.scss";
+
+/**
+ * Import MODULES
+ * 1. Header
+ * 2. Sections
+ * 3. Footer
+ */
+
+@import "modules/_header.scss";
+@import "modules/_sections.scss";
+@import "modules/_footer.scss";
+
+/**
+ * Import COMPONENETS
+ * 1. Buttons
+ */
+
+@import "components/_buttons.scss";
